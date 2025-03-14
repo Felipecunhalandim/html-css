@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to bottom, #181D26, #313640, #4D5859, #808C83);
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}

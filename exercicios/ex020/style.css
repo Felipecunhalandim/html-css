@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(205, 255, 203);
+    font: normal 16px arial, helvetica, sans-serif
+}
+
+h1 {
+    color: darkgreen;
+
+}
+
+h1#principal {
+    text-align: center;
+    background-color: aqua;
+}
+.basico{
+    color: blue;
+
+
+}
+
+.intermediario{
+    color: gold;
+
+}
+
+.avancado{
+    color: red;
+
+
+}
+.destaque {
+    background-color: bisque ;
+}
