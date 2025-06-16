@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+body , html{
+    background-color: lightgrey
+}
+
+header{
+    background-color: gray;
+}
+
+header h1{
+    text-align: center;
+    
+}
+
+menu{
+    display: block;
+}
+
+menu > ul { 
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+   
+}
