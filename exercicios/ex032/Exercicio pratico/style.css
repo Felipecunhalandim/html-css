@@ -20,17 +20,19 @@ header{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 
    
 
 }
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
 }
 
 header > nav  {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -55,8 +57,21 @@ header > nav > a:hover {
 
 main{
     background-color: white;
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+    width: 70vw;
+
+    
+  
+    
+   
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    text-align: justify;
 }
